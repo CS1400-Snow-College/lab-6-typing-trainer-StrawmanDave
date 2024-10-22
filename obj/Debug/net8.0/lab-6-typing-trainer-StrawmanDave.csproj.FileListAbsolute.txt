@@ -1,0 +1,15 @@
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/obj/Debug/net8.0/lab-6-typing-trainer-StrawmanDave.GeneratedMSBuildEditorConfig.editorconfig
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/obj/Debug/net8.0/lab-6-typing-trainer-StrawmanDave.AssemblyInfoInputs.cache
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/obj/Debug/net8.0/lab-6-typing-trainer-StrawmanDave.AssemblyInfo.cs
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/obj/Debug/net8.0/lab-6-typing-trainer-StrawmanDave.csproj.CoreCompileInputs.cache
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/obj/Debug/net8.0/lab-6-typing-trainer-StrawmanDave.sourcelink.json
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/bin/Debug/net8.0/lab-6-typing-trainer-StrawmanDave
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/bin/Debug/net8.0/lab-6-typing-trainer-StrawmanDave.deps.json
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/bin/Debug/net8.0/lab-6-typing-trainer-StrawmanDave.runtimeconfig.json
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/bin/Debug/net8.0/lab-6-typing-trainer-StrawmanDave.dll
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/bin/Debug/net8.0/lab-6-typing-trainer-StrawmanDave.pdb
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/obj/Debug/net8.0/lab-6-typing-trainer-StrawmanDave.dll
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/obj/Debug/net8.0/refint/lab-6-typing-trainer-StrawmanDave.dll
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/obj/Debug/net8.0/lab-6-typing-trainer-StrawmanDave.pdb
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/obj/Debug/net8.0/lab-6-typing-trainer-StrawmanDave.genruntimeconfig.cache
+/home/david/david-progamming-1400/lab-6-typing-trainer-StrawmanDave/obj/Debug/net8.0/ref/lab-6-typing-trainer-StrawmanDave.dll
