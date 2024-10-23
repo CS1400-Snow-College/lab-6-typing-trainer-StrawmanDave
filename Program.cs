@@ -24,5 +24,43 @@ string[] typingPhrases = new string [5] {phrase1, phrase2, phrase3, phrase4, phr
 string chosenPhrase = typingPhrases[randomNum];
 
 //writes the chosen phrase and the number corresponding with it.
-Console.Write($"{chosenPhrase} {randomNum}");
+Console.Write($"{chosenPhrase}");
+Console.WriteLine();
+
+int i = 0;
+int correct = 0;
+int incorrect = 0;
+while(i<chosenPhrase.Length)
+    {
+
+    char keyPressed = Console.ReadKey(true).KeyChar;
+    if(keyPressed == chosenPhrase[i])
+    {
+        Console.BackgroundColor = ConsoleColor.Green;
+        correct ++;
+    }else
+    {
+        Console.BackgroundColor = ConsoleColor.Red;
+        incorrect ++;
+    }
+    Console.Write(chosenPhrase[i]);
+    i ++;
+    }
+
+    float accuracy = (float) 0;
+
+    if (correct == 0)
+    {
+        Console.WriteLine("Wow your bad at typing");
+    }else
+    {
+        accuracy =  (float)correct/ i * 100;
+    }
+    int percentage =Convert.ToInt32(accuracy);
+    Console.BackgroundColor = ConsoleColor.Black;
+    
+    //Console.WriteLine($"{correct} {incorrect} {i}");
+
+Console.WriteLine();
+Console.WriteLine($"You got {percentage}%");
 Console.WriteLine();

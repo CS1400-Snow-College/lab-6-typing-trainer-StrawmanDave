@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-6-typing-trainer-StrawmanDave")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a9765bf131f5a41ccb8dcfec13d4d016bee12ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf48866ace2b9d6d3907d7a00ddc80d0ba6149d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-6-typing-trainer-StrawmanDave")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-6-typing-trainer-StrawmanDave")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
