@@ -1,6 +1,7 @@
 ﻿// David Barlow Typing Trainer 10/22/24
 
 // Clear the screen so it looks nice
+using System.Diagnostics;
 Console.Clear();
 
 // Brief instructions
@@ -22,6 +23,7 @@ int randomNum = rand.Next(0,5);
 //array that stores the phrases
 string[] typingPhrases = new string [5] {phrase1, phrase2, phrase3, phrase4, phrase5};
 string chosenPhrase = typingPhrases[randomNum];
+string[] words = chosenPhrase.Split(' ');
 
 //writes the chosen phrase and the number corresponding with it.
 Console.Write($"{chosenPhrase}");
@@ -30,6 +32,9 @@ Console.WriteLine();
 int i = 0;
 int correct = 0;
 int incorrect = 0;
+int j = 0;
+
+Stopwatch stopwatch = new Stopwatch();
 while(i<chosenPhrase.Length)
     {
 
@@ -44,10 +49,39 @@ while(i<chosenPhrase.Length)
         incorrect ++;
     }
     Console.Write(chosenPhrase[i]);
+    stopwatch.Start();
     i ++;
     }
+    Console.BackgroundColor = ConsoleColor.Black;
 
-    float accuracy = (float) 0;
+    //to calculate how many words there is.
+    for(j = 0; j<words.Length; j++)
+{
+}
+    stopwatch.Stop();
+    double elapsedSeconds = stopwatch.ElapsedMilliseconds / 1000.0;
+    int seconds = Convert.ToInt32(elapsedSeconds);
+
+    Console.WriteLine();
+    Console.Write($"Your phrase had {j} words in it. It took you {seconds} seconds. You had {incorrect} mistakes.");
+
+    // one word is considered 7 keystrokes
+    double totalWords = (double) i/7;
+
+    //minutes is just seconds divided by 60 because there is 60 seconds in a word.
+    double minutes = (double) elapsedSeconds/60;
+
+    // words per minute is totalWords divided by total minutes
+    double decimalWPM = (double) totalWords/minutes;
+    // convert it to just a number for better looks
+    int WPM = Convert.ToInt32(decimalWPM);
+
+    // subtract mistakes for true WPM
+    int trueWPM = WPM - incorrect;
+    Console.WriteLine();
+    Console.Write($"Your words per minute was {trueWPM}WPM");
+
+float accuracy = (float) 0;
 
     if (correct == 0)
     {
@@ -56,11 +90,12 @@ while(i<chosenPhrase.Length)
     {
         accuracy =  (float)correct/ i * 100;
     }
-    int percentage =Convert.ToInt32(accuracy);
-    Console.BackgroundColor = ConsoleColor.Black;
+
+    //converting accuracy to a int for better looks
+    int trueAccuracy =Convert.ToInt32(accuracy);
     
+    //for de-bugging later if needed.
     //Console.WriteLine($"{correct} {incorrect} {i}");
 
 Console.WriteLine();
-Console.WriteLine($"You got {percentage}%");
-Console.WriteLine();
+Console.WriteLine($"You had {trueAccuracy}% accuracy");
