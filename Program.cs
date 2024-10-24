@@ -65,14 +65,11 @@ while(i<chosenPhrase.Length)
     Console.WriteLine();
     Console.Write($"Your phrase had {j} words in it. It took you {seconds} seconds. You had {incorrect} mistakes.");
 
-    // one word is considered 7 keystrokes
-    double totalWords = (double) i/7;
-
     //minutes is just seconds divided by 60 because there is 60 seconds in a word.
     double minutes = (double) elapsedSeconds/60;
 
     // words per minute is totalWords divided by total minutes
-    double decimalWPM = (double) totalWords/minutes;
+    double decimalWPM = (double) j/minutes;
     // convert it to just a number for better looks
     int WPM = Convert.ToInt32(decimalWPM);
 
