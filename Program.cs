@@ -25,7 +25,7 @@ string[] typingPhrases = new string [5] {phrase1, phrase2, phrase3, phrase4, phr
 string chosenPhrase = typingPhrases[randomNum];
 string[] words = chosenPhrase.Split(' ');
 
-//writes the chosen phrase and the number corresponding with it.
+//writes the chosen phrase
 Console.Write($"{chosenPhrase}");
 Console.WriteLine();
 
