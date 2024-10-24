@@ -35,10 +35,13 @@ int incorrect = 0;
 int j = 0;
 
 Stopwatch stopwatch = new Stopwatch();
+
+//Now the user will type the chosen phrase that was chosen does not need to move the cursor
 while(i<chosenPhrase.Length)
     {
 
     char keyPressed = Console.ReadKey(true).KeyChar;
+    // uses background color so that spaces can be shown as mistakes as well
     if(keyPressed == chosenPhrase[i])
     {
         Console.BackgroundColor = ConsoleColor.Green;
